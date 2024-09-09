@@ -1,0 +1,764 @@
+ .img1{
+    width: 100vw;
+    height: 100vh;
+     /* opacity: 0.5;    */
+   
+    background-image: url("https://www.shutterstock.com/image-photo/portrait-happy-newlywed-wife-husband-600nw-2348368671.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: zoom;
+   
+}
+.list-group-item:hover{
+    color: #da6a15;
+    text-decoration: underline;
+}
+
+.nav-wdng{
+    font-size: 0.5em;
+    color: orange;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fix{
+position: sticky;
+top: 0px;
+z-index: 1;
+display:flex !important;
+
+}
+.nav-item .col{
+    color: red !important;
+}
+
+.button{
+    background-color: orange;
+   color: white; 
+   border-top-left-radius: 25px;
+   border-top-right-radius: 25px;
+   border-bottom-left-radius: 25px;
+   border-bottom-right-radius: 25px;
+   padding: 2%;
+   border: none;
+   margin-left: 5%;
+}
+ .text{
+     margin-top: 10%;
+    margin-left: 41%;  
+  
+    
+} 
+/* nav{
+    position: sticky;
+    top: 0;
+} */
+
+.end-line{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap:0px;
+}
+.read-more{
+    color: orange;
+    text-decoration: none;
+}
+.three-images{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 5%;
+}
+.img4{
+    background-image: url(img4.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    gap: 5%;
+  
+     
+}
+ .text2{
+    
+     margin-top: 20%;
+    margin-left: 15%;  
+   
+}   
+.phn2{
+    position: relative; 
+     margin-left: 15%;
+     margin-top: 45%;  
+    border-radius: 10%;
+  
+}
+.phn3{
+    position: absolute;
+    margin-left: -5%; 
+    margin-top: 24.5%;
+    border-radius: 10%;
+}
+#list{
+    margin-left: 31%;
+}
+.card-link{
+    text-decoration: none;
+    color: black;
+}
+#card-body{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap :30%
+}
+.portfolio-images{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 2%;
+}
+/* .card{
+    
+    overflow: hidden;
+}
+ 
+.card:hover img{
+    transform: scale(1.2);
+    transition: all 0.5s linear;
+    
+} */
+.zoom-img {
+    display: block;
+    width: 100%;
+    transition: transform 0.3s ease; 
+  }
+  
+  .folio:hover .zoom-img {
+    transform: scale(1.2);
+  }
+  
+  .folio {
+    overflow: hidden; 
+  }
+.img1{
+    overflow:hidden;
+}
+.img1:hover{
+    transform: scale(1.2);
+    transition: all 2s linear;
+} 
+.car{
+    overflow: hidden;
+}
+.car:hover{
+    transform: scale(1.2);
+    transition: all 2s linear;
+}
+.flower{
+    overflow: hidden;
+}
+.flower:hover{
+    transform: scale(1.2);
+    transition: all 2s linear;
+}
+
+
+.horizontal{
+    width: 60%;
+    margin-left: 20%;
+}
+.button2{
+    background-color: grey;
+    color: white;
+    border-top-left-radius: 25px;
+   border-top-right-radius: 25px;
+   border-bottom-left-radius: 25px;
+   border-bottom-right-radius: 25px;
+    padding: 2%;
+   border: none;
+   width:   8vw;
+   height: 7vh; 
+  /* margin-right:5% ; */
+}
+.button2{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.button2::before{
+
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -100%; 
+    width: 100%;
+    height: 100%;
+    background-color: #da6a15; 
+    z-index: -1;
+    transition: right 0.4s ease;
+  }
+  
+  .button2:hover::before {
+    right: 0; 
+  }
+.more-images{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 30%;
+}
+.suitpic{
+    background-image: url("broomsuit.jpg");
+    width: 50vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.groomtext{
+    border: 2px solid white;
+    color: white;
+    margin-left: 20%;
+    margin-top: 20%;
+    width: 30vw;
+}
+.tips{
+    font-style: italic;
+    font-size: 5vh;
+    color: orange;
+    margin-left: 20%;
+    /* margin-top: 50%;   */
+}
+.groom{
+    font-size: 15vh;
+    color: white;
+    margin-left: -13%;
+    /* margin-top: -20%;  */
+}
+.groomside,.brideside{
+    /* background-color: aqua; */
+    width: 50vw;
+    height: 80vh;
+     /* margin-top: 20vh;  */
+   
+}
+.title{
+    margin: 20vh;
+
+}
+.bridepic{
+    background-image: url("bride.jpg");
+    width: 50vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bride-groom{
+    display: grid;
+    grid-template-columns: auto auto;
+   
+}
+.lorem{
+    color: gray;
+}
+.elizabet{
+    width: 20%;
+    height: 20%;
+    border-radius: 90%;
+     /* margin-left: 150%; */
+    
+}
+blockquote{
+    margin-left: 45%;
+}
+#badges{
+    margin-left: 33%;
+}
+.elizabet-para{
+    margin-left: 20%;
+    margin-right: 20%;
+    color: gray;
+}
+.gray-pics{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.gray{
+    width: 60%;
+    height: 80%;
+}
+ body{
+    overflow-x: hidden;
+} 
+.price{
+    width: 15vw;
+    height: 95vh;
+    /* padding: 5%; */
+}
+.price2{
+    background-image: url("price-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15vw;
+    height: 95vh;
+    /* padding: 5%; */
+    color: white;
+}
+.whole-price{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.circle{
+    color: gray;
+}
+.inputs{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5%;
+}
+.msg{
+    width: 35vw;
+    height: 50vh;
+    /* background-color: aquamarine; */
+}
+ input{
+    width: 13vw;
+    height: 5vh;
+} 
+.msg-input{
+    width: 31vw;
+    height: 20vh;
+    overflow-y: scroll;
+}
+.contact{
+    /* background-color: aquamarine; */
+    width: 35vw;
+    height: 50vh;
+}
+.contact-text{
+    color: gray;
+}
+.adress{
+    color: orange;
+}
+.contact-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.contact-info{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10%;
+    justify-content: center;
+}
+#caste{
+    width: 32vw;
+    height: 5vh;
+    color: gray;
+}
+.icons{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+
+}
+.facebook{
+    border-radius: 50%;
+}
+.final-image{
+    background-image: url("final.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+   padding-top: 5%;
+   padding-left: 5%;
+   padding-right: 5%;
+    
+}
+.wdng{
+    width: 30vw;
+    height: 50vh;
+    color: white;
+}
+.final-div{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: white;
+}
+.wdng-color{
+    color: orange;
+    font-style: italic;
+    font-size: 0.5em;
+}
+.recent-photos{
+    width: 30vw;
+    height: 50vh;
+    color: white;
+}
+.recent1{
+    width: 4vw;
+    height: 8vh;
+}
+.hair{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.portfolio-finalimages{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.port{
+    width: 9vw;
+    height: 14vh;
+    column-gap: 10%;
+}
+.flower{
+    background-image: url("flower.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98.5vw;
+    height: 100vh;
+}
+.car{
+    background-image: url("car2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98.5vw;
+    height: 100vh;
+}
+.heart{
+    width: 5vw;  
+}
+.heart1{
+    margin-left:-4%;
+    width: 4vw;
+}
+.wp{
+    color: orange;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 700;
+}
+.plan{
+    color: white;
+    font-size: 5em;
+    margin-left: -20%;
+}
+.ipsum{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -10%;
+    
+}
+.odio{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.ring{
+    width: 5vw;
+}
+.ring1{
+    margin-left:-4%;
+    width: 4vw;
+}
+.slack{
+    width: 5vw;
+}
+.slack1{
+    margin-left:-4%;
+    width: 4vw;
+}
+.wp1{
+    color: orange;
+    font-size: 2em;
+    font-style: italic;
+}
+.plan1{
+    color: black;
+    font-size: 3em;
+}
+
+
+/* animations */
+.animate__animated.animate__backInLeft {
+    --animate-duration: 2s;
+  }
+.animate__animated.animate__backInRight {
+    --animate-duration: 2s;
+  }
+.animate__animated.animate__backInUp {
+    --animate-duration: 2s;
+  }
+ .animate__animated.animate__backInDown {
+    --animate-duration: 4s;
+    /* --animation-delay:3s ; */
+  } 
+  .animate__animated.animate__zoomInDown {
+    --animate-duration: 2s;
+    /* --animation-delay:3s ; */
+  }
+  .animate__animated.animate__zoomIn {
+    --animate-duration: 2s;
+    /* --animation-delay:3s ; */
+  } 
+  .animate__animated.animate__lightSpeedInRight {
+    --animate-duration: 2s;
+    /* --animation-delay:3s ; */
+  } 
+  .animate__animated.animate__lightSpeedInLeft {
+    --animate-duration: 2s;
+    /* --animation-delay:3s ; */
+  }
+  .animate__animated.animate__heartBeat {
+    --animate-duration: 2s;
+    /* --animation-delay:3s ; */
+  } 
+  .animate__animated.animate__slideInLeft {
+    --animate-duration: 2s;
+    /* --animation-delay:3s ; */
+  } 
+  .animate__animated.animate__slideInRight {
+    --animate-duration: 2s;
+    /* --animation-delay:3s ; */
+  } 
+
+
+@media only screen and (width<550px){
+    .wp{
+        color: orange;
+        font-size: 1em;
+        font-style: italic;
+        font-weight: 700;
+    }
+    .plan{
+        color: white;
+        font-size: 2em;
+        margin-left: 0;
+    }
+    .ipsum{
+        color: white;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: -5%;
+        
+    }
+    .odio{
+        color: white;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+}
+@media only screen and (width<900px){
+    .three-images{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        gap: 5%;
+    }
+   .phn2{
+    margin-top: 87%;
+   }
+   .phn3{
+    margin-top: 43%;
+   }
+   .portfolio-images{
+    display: grid;
+    grid-template-columns: auto  auto;
+    justify-content: center;
+    gap: 2%;
+}
+.more-images{
+    display: grid;
+    grid-template-columns: auto ;
+    justify-content: center;
+    /* gap: 30%; */
+}
+.bride-groom{
+    display: grid;
+    grid-template-columns:auto;
+   
+}
+.suitpic,.bridepic{
+    
+    width: 90vw;
+    height: 80vh;
+
+}
+.groomside,.brideside{
+   
+    width: 90vw;
+    height: 50vh;
+    margin: 0%;
+     
+}
+.groomtext{
+    border: 2px solid white;
+    color: white;
+    margin-left: 20%;
+    margin-top: 20%;
+    width: 50vw;
+}
+.whole-price{
+    display: grid;
+    grid-template-columns: auto auto ;
+    /* margin-left: 10%;
+    margin-right: 5%; */
+
+}
+.price{
+    width: 35vw;
+    height: 95vh;
+    /* padding: 5%; */
+}
+.price2{
+    /* background-image: url("price-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    width:35vw;
+    height: 95vh;
+    /* padding: 5%; */
+    /* color: white; */
+}
+.contact-info{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10%;
+    justify-content: center;
+    height: 140vh;
+}
+.button2{
+width:   20vw;
+   height: 7vh;
+}
+}
+@media only screen and (width<600px){
+    .three-images{
+        display: grid;
+        grid-template-columns: auto ;
+        justify-content: center;
+        gap: 5%;
+    }
+    .text{
+        margin-left: 20%;
+    }
+     .horizontal{
+        color: white;
+    } 
+    #img3-content{
+        display: none;
+    }
+    .phn2{
+        display: none;
+    }
+    .phn3{
+        display: none;
+    }
+    .portfolio-images{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+       
+    }
+    .portfolio-image6{
+        display: none;
+    }
+    .brideside{
+        display: none;
+    }
+    .groomside{
+        height: 90vh;
+    }
+    .price{
+        width: 95vw;
+        height: 95vh;
+        /* padding: 5%; */
+    }
+    
+    .whole-price{
+        display: grid;
+        grid-template-columns: auto ;
+        /* margin-left: 10%;
+        margin-right: 5%; */
+    
+    }
+    .final-image{
+        display: grid;
+        grid-template-columns: auto;
+        height: 200vh;
+    }
+    .wdng{
+        width: 60vw;
+    }
+    .recent-photos{
+        width: 60vw;
+
+    }
+    
+
+    .price2{
+        /* background-image: url("price-2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; */
+        width:95vw;
+        height: 95vh;
+        /* padding: 5%; */
+        /* color: white; */
+    }
+    .contact-grid{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10%;
+        justify-content: center;
+        height: 40vh;
+    }
+    .working-hours{
+        display: none;
+    }
+    .button2{
+        margin-left: 30px;
+        width: 50%;
+    }
+    .groomtext{
+        /* font-size: 5%; */
+        border: none;
+    }
+    .msg{
+        width: 85vw;
+        margin-left: 10px;
+    }
+    .contact{
+        width: 95vw;
+    }
+    .msg-input{
+        width: 80vw;
+    }
+    #caste{
+        width: 80vw;
+    }
+}
+@media only screen and (width<1290px){
+    .phn2{
+        margin-top: 60%;
+    }
+    .phn3{
+        margin-top: 30%;
+    }
+}
+@media only screen and (width<1200px) {
+    .groom{
+        font-size: 10vh;
+        color: white;
+        margin-left: -13%;
+        /* margin-top: -20%;  */
+    }
+}
+@media only screen and (width<350px){
+    .groomside{
+        display: none;
+    }
+}
