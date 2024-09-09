@@ -672,6 +672,16 @@ width:   20vw;
     }
     .groomside{
         height: 90vh;
+        /* z-index: -1; */
+       
+    }
+    .side1{
+        width: 50vw;
+        margin-left: 10% !important;
+    }
+    .semper{
+        visibility: hidden;
+       
     }
     .price{
         width: 95vw;
@@ -747,6 +757,9 @@ width:   20vw;
     }
     .phn3{
         margin-top: 30%;
+    }
+    body{
+        margin-left: 5%;
     }
 }
 @media only screen and (width<1200px) {
