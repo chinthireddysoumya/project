@@ -649,10 +649,12 @@ width:   20vw;
         justify-content: center;
         gap: 5%;
         margin-left: 4%;
+        width: 85vw;
     }
     .mail{
         display: none;
     }
+    
     .text{
         margin-left: 20%;
     }
@@ -708,6 +710,9 @@ width:   20vw;
     .side1{
         width: 50vw;
         margin-left: 10% !important;
+    }
+    .services{
+        width: 85vw;
     }
     .semper{
         visibility: hidden;
@@ -780,6 +785,9 @@ width:   20vw;
         margin-left: 30px;
         width: 50%;
     }
+    .icons{
+        width: 85vw;
+    }
     .groomtext{
         /* font-size: 5%; */
         border: none;
@@ -797,6 +805,7 @@ width:   20vw;
     #caste{
         width: 80vw;
     }
+    
 }
 @media only screen and (width<1290px){
     .phn2{
