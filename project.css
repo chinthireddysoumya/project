@@ -720,9 +720,9 @@ width:   20vw;
     .final-image{
         display: grid;
         grid-template-columns: auto;
-        height: 150vh;
-        width: 80vh;
-        gap: 1%;
+        height: 160vh;
+        width: 70vh;
+        /* gap: 15%; */
     }
     .wdng{
         width: 70vw;
@@ -734,9 +734,13 @@ width:   20vw;
     }
     .portfolio-finalimages{
         width: 80vh;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: start;
+        gap: 10%;
     }
     .port{
-        width:40%
+        width:70%
     }
     .recent1{
         width: 70%;
