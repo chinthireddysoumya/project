@@ -368,6 +368,7 @@ blockquote{
 .icons{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
+    background-color: white;
 
 }
 .facebook{
@@ -649,6 +650,9 @@ width:   20vw;
         gap: 5%;
         margin-left: 4%;
     }
+    .mail{
+        display: none;
+    }
     .text{
         margin-left: 20%;
     }
@@ -727,7 +731,7 @@ width:   20vw;
         display: grid;
         grid-template-columns: auto;
         height: 160vh;
-        width: 55vw;
+        width: 85vw;
         /* gap: 15%; */
     }
     .wdng{
