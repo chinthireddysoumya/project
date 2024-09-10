@@ -705,10 +705,10 @@ width:   20vw;
        
     }
     .price{
-        width: 95vw;
+        width: 85vw;
         height: 95vh;
         /* padding: 5%; */
-        margin-left: -4vw;
+        margin-left: -11vw;
     }
     
     .whole-price{
@@ -751,10 +751,11 @@ width:   20vw;
         /* background-image: url("price-2.jpg");
         background-repeat: no-repeat;
         background-size: cover; */
-        width:95vw;
+        width:85vw;
         height: 95vh;
         /* padding: 5%; */
         /* color: white; */
+        margin-left: -10.5% !important;
     }
     .contact-grid{
         display: grid;
@@ -795,9 +796,9 @@ width:   20vw;
     .phn3{
         margin-top: 30%;
     }
-    body{
+     body{
         margin-left: 5%;
-    }
+    } 
 }
 @media only screen and (width<1200px) {
     .groom{
