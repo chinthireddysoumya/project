@@ -722,7 +722,7 @@ width:   20vw;
         display: grid;
         grid-template-columns: auto;
         height: 160vh;
-        width: 55vh;
+        width: 55vw;
         /* gap: 15%; */
     }
     .wdng{
