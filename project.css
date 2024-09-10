@@ -658,6 +658,10 @@ width:   20vw;
     .text{
         margin-left: 20%;
     }
+    .img4{
+        width: 100%;
+        height: 100%;
+    }
     #list{
         margin-left: -4%;
         gap: -50%;
@@ -805,7 +809,10 @@ width:   20vw;
     #caste{
         width: 80vw;
     }
-    
+    .img4{
+        width: 100%;
+        height: 100%;
+    }
 }
 @media only screen and (width<1290px){
     .phn2{
@@ -829,5 +836,11 @@ width:   20vw;
 @media only screen and (width<350px){
     .groomside{
         display: none;
+    }
+}
+@media only screen and (width<400px){
+    .img4{
+        width: 100%;
+        height: 100%;
     }
 }
