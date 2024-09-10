@@ -708,6 +708,7 @@ width:   20vw;
         width: 95vw;
         height: 95vh;
         /* padding: 5%; */
+        margin-left: -4vw;
     }
     
     .whole-price{
@@ -721,7 +722,7 @@ width:   20vw;
         display: grid;
         grid-template-columns: auto;
         height: 160vh;
-        width: 70vh;
+        width: 55vh;
         /* gap: 15%; */
     }
     .wdng{
@@ -778,7 +779,7 @@ width:   20vw;
         margin-left: 10px;
     }
     .contact{
-        width: 95vw;
+        width: 85vw;
     }
     .msg-input{
         width: 80vw;
